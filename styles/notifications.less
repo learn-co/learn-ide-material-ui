@@ -1,10 +1,14 @@
 atom-notifications {
-    display: flex;
+    // NOTE: removing flex repositioned notifications to top vs bottom
+    // display: flex;
     align-items: flex-end;
     flex-flow: column-reverse;
-    padding: 2rem 0.5rem;
+    // NOTE: increased padding for better top positioning
+    // padding: 2rem 0.5rem;
+    padding: 3rem 0.5rem;
     z-index: 9999;
 }
+
 atom-notification {
     padding: 0;
     border-radius: 0 0.125rem 0.125rem 0;
