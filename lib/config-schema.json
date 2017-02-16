@@ -33,7 +33,7 @@
                 "title": "Paint text editor's cursor",
                 "description": "Overrides the syntax theme's cursor color with the selected Primary Color.",
                 "type": "boolean",
-                "default": false
+                "default": true
             }
         }
     },
